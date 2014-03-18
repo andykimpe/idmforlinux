@@ -1,0 +1,18 @@
+#!/bin/bash
+wineversion=$(wine --version)
+if [ "$wineversion" == "wine-1.7.14" ]; then
+ echo "Wine version 1.7.14 ok"
+else
+ echo "Please install Wine version 1.7.14"
+fi
+if [ -d "$HOME/.idm" ]; then
+echo "start idm"
+else
+mkdir -p $HOME/.idm
+cp -R /opt/idm/* $HOME/.idm
+fi
+if [ "$1" "" ]; then
+WINEPREFIX="$HOME/.idm" wine "C:/Program Files/Internet Download Manager/IDMan.exe"
+else
+WINEPREFIX="$HOME/.idm" wine "C:/Program Files/Internet Download Manager/IDMan.exe" /d $1
+fi
