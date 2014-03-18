@@ -21,6 +21,6 @@ install-mozilla-addon https://addons.mozilla.org/firefox/downloads/latest/220/ad
 killall firefox
 killall firefox-trunk > /dev/null
 echo "IDM finish install"
-echo "for ingrate idm on flashgot"
+echo "for integrate idm on flashgot"
 echo "Please use /usr/bin/idman"
 echo "parameter [URl]"
