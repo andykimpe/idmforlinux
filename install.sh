@@ -11,6 +11,7 @@ sudo chmod +x /usr/bin/idman
 echo "install flashgot"
 echo "Please restart firefox after install"
 sleep 20
+sudo rm -rf /usr/lib/firefox-addons/extensions/{19503e42-ca3c-4c27-b1e2-9cdb2170ee34}/
 sudo rm -f /usr/local/sbin/install-mozilla-addon /usr/sbin/install-mozilla-addon
 sudo wget -q -O /usr/sbin/install-mozilla-addon https://raw.github.com/andykimpe/idmforlinux/master/install-mozilla-addon
 sudo chmod +x /usr/sbin/install-mozilla-addon
