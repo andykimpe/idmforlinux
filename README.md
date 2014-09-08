@@ -8,3 +8,5 @@ Internet Download Manager supports proxy servers, ftp and http protocols, firewa
 Other features include multilingual support, zip preview, download categories, scheduler pro, sounds on different events, HTTPS support, queue processor, html help and tutorial, enhanced virus protection on download completion, progressive downloading with quotas (useful for connections that use some kind of fair access policy or FAP like Direcway, Direct PC, Hughes, etc.), built-in download accelerator, and many others.
 
 Internet Download Manager For Linux Version 5.05
+
+Attention only bash file are open to file another are the Property as of Tonec Inc.
