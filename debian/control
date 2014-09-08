@@ -1,7 +1,7 @@
 Source: idm
 Section: web
 Priority: optional
-Maintainer: andykimpe <andykimpe@gmail.com>
+Maintainer: Kimpe Andy (rpm and ppa key) <andykimpe@gmail.com>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.4
 Homepage: https://github.com/andykimpe/idmforlinux/
