@@ -1,0 +1,5 @@
+#!/bin/bash
+rm -rf $HOME/.idm/
+WINEPREFIX=$HOME/.idm WINEARCH=win32 wine "regedit" /S /opt/idm/idm1.reg
+tar -xvf /opt/idm/idm.tar.gz -C "$HOME/.idm/drive_c/Program Files"
+WINEPREFIX=$HOME/.idm WINEARCH=win32 wine "C:\Program Files\Internet Download Manager\IDMan.exe" "$@"

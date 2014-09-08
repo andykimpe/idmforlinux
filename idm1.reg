@@ -1,0 +1,116 @@
+REGEDIT4
+
+[HKEY_CURRENT_USER\Software\DownloadManager]
+"AdvancedIntegration"=dword:00000000
+"AppDataIDMFolder"="C:\\users\\Public\\Application Data\\IDM\\"
+"ClChIDMRes"=dword:00000001
+"ClChIERes"=dword:00000000
+"ConnectionSpeed"=dword:00000000
+"ConnectionType"=dword:00000000
+"ExceptionServers"="*.update.microsoft.com download.windowsupdate.com siteseal.thawte.com"
+"ExePath"="C:\\Program Files\\Internet Download Manager\\IDMan.exe"
+"Extensions"="EXE ZIP ARJ RAR LZH Z GZ GZIP TAR BIN MP3 M4A WAV RA RAM AAC AIF AVI MPG MPEG QT PLJ ASF MOV RM MP4 WMA WMV MPE MPA R0* R1* A0* A1* TIF TIFF PDF MSI ACE ISO OGG 7Z SEA SIT SITX PPT PPS"
+"FindApps"=dword:00000000
+"FSSettingsChecked"=dword:00000001
+"FtpPasive"=dword:00000000
+"idmvers"="v5.05 Trial"
+"intAOFRWE"=dword:00000001
+"IntegrateMIE"=dword:00000001
+"IntegrateNN"=dword:00000001
+"isSSW_OK"=dword:00000000
+"languageID"=dword:7938000c
+"LastCheck"="09/08/14"
+"LastCheckQU"=hex(0):45,6c,0d,54
+"LaunchOnStart"=dword:00000001
+"LIDwa"=dword:00000001
+"LocalPath"="C:\\users\\Public\\Mes documents\\Downloads\\"
+"MonitorUrlClipboard"=dword:00000000
+"mzcc_vers"=dword:00000004
+"nDESC7"=dword:00000001
+"RememberLastSave"=dword:00000001
+"sortOrder"=dword:00000000
+"TempPath"="C:\\users\\Public\\Application Data\\IDM\\"
+"UseFtpProxy"=dword:00000000
+"UseHttpProxy"=dword:00000000
+"windowPlacementV5"=hex(0):2c,00,00,00,00,00,00,00,01,00,00,00,ff,ff,ff,ff,ff,\
+  ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,ff,0d,01,00,00,47,01,00,00,33,04,00,00,09,03,\
+  00,00
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree\Compressé]
+"ID"=dword:00000007
+"mask"="zip rar r0* r1* arj gz sit sitx sea ace"
+"path"="C:\\users\\Public\\Mes documents\\Downloads\\Compressed"
+"rememberLastPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree\Documents]
+"ID"=dword:00000005
+"mask"="doc pdf ppt pps"
+"path"="C:\\users\\Public\\Mes documents\\Downloads\\Documents"
+"rememberLastPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree\Musique]
+"ID"=dword:00000002
+"mask"="mp3 wav wma mpa ram ra aac aif m4a"
+"path"="C:\\users\\Public\\Mes documents\\Downloads\\Music"
+"rememberLastPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree\Programmes]
+"ID"=dword:00000001
+"mask"="exe msi"
+"path"="C:\\users\\Public\\Mes documents\\Downloads\\Programs"
+"rememberLastPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\DownloadManager\FoldersTree\Videos]
+"ID"=dword:00000003
+"mask"="avi mpg mpe mpeg asf wmv mov qt rm mp4"
+"path"="C:\\users\\Public\\Mes documents\\Downloads\\Video"
+"rememberLastPath"=dword:00000000
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI\Firefox]
+"int"=dword:00000001
+"name"="Mozilla firefox"
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI\IEXPLORE]
+"int"=dword:00000001
+"name"="Internet Explorer"
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI\Mozilla]
+"int"=dword:00000001
+"name"="Mozilla"
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI\NETSCP]
+"int"=dword:00000001
+"name"="Netscape 6 and later"
+
+[HKEY_CURRENT_USER\Software\DownloadManager\IDMBI\OPERA]
+"int"=dword:00000001
+"name"="Opera"
+
+[HKEY_CURRENT_USER\Software\DownloadManager\ListSettings]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\maxID]
+"maxID"=dword:00000001
+
+[HKEY_CURRENT_USER\Software\DownloadManager\MCN]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\Passwords]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\Queue]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\Scheduler]
+
+[HKEY_CURRENT_USER\Software\DownloadManager\SpecialKeys]
+"AltF"=dword:00000000
+"AltP"=dword:00000001
+"CheckMouse"=dword:00000001
+"CtrlF"=dword:00000001
+"CtrlP"=dword:00000000
+"InsF"=dword:00000000
+"ShiftF"=dword:00000000
+"ShiftP"=dword:00000000
+"UseKeyToForce"=dword:00000000
+"UseKeyToPrevent"=dword:00000001
