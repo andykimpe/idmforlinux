@@ -19,7 +19,7 @@ git clone https://github.com/andykimpe/idmforlinux.git idm-5.05
 
 cd idm-5.05
 
-tar -xvf ../idm_5.05.orig.tar.gz idm idm.tar.gz idm1.reg
+tar -cvf ../idm_5.05.orig.tar.gz idm idm.tar.gz idm1.reg
 
 debuild
 
