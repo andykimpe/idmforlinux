@@ -1,0 +1,5 @@
+idm (5.05-1) trusty; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Kimpe Andy (rpm and ppa key) <andykimpe@gmail.com>  Mon, 08 Sep 2014 11:25:37 +0200
