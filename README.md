@@ -11,7 +11,7 @@ Internet Download Manager For Linux Version 5.05
 
 Attention only bash file are open to file another are the Property as of Tonec Inc.
 
-générateur deb file
+generate deb file
 
 sudo apt-get -y install debhelper cdbs lintian build-essential fakeroot devscripts pbuilder dh-make debootstrap git
 
