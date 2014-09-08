@@ -1,0 +1,12 @@
+#!/bin/bash
+if ! grep -q "127.0.0.1	tonec.com" /etc/hosts; then echo "127.0.0.1	tonec.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	www.tonec.com" /etc/hosts; then echo "127.0.0.1	www.tonec.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	registeridm.com" /etc/hosts; then echo "127.0.0.1	registeridm.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	www.registeridm.com" /etc/hosts; then echo "127.0.0.1	www.registeridm.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	secure.registeridm.com" /etc/hosts; then echo "127.0.0.1	secure.registeridm.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	internetdownloadmanager.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	www.internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	www.internetdownloadmanager.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	mirror.internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	mirror.internetdownloadmanager.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	mirror1.internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	mirror1.internetdownloadmanager.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	mirror2.internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	mirror2.internetdownloadmanager.com" >> /etc/hosts; fi
+if ! grep -q "127.0.0.1	mirror3.internetdownloadmanager.com" /etc/hosts; then echo "127.0.0.1	mirror3.internetdownloadmanager.com" >> /etc/hosts; fi
