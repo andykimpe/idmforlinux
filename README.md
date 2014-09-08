@@ -10,3 +10,17 @@ Other features include multilingual support, zip preview, download categories, s
 Internet Download Manager For Linux Version 5.05
 
 Attention only bash file are open to file another are the Property as of Tonec Inc.
+
+générateur deb file
+
+sudo apt-get -y install debhelper cdbs lintian build-essential fakeroot devscripts pbuilder dh-make debootstrap git
+
+git clone https://github.com/andykimpe/idmforlinux.git idm-5.05
+
+cd idm-5.05
+
+tar -xvf ../idm_5.05.orig.tar.gz idm idm.tar.gz idm1.reg
+
+debuild
+
+for create ppa use debuild -S -sa
